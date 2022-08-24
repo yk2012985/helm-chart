@@ -3,12 +3,25 @@ entries:
   helloworld:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-08-11T18:54:09.792576156+08:00"
+    created: "2022-08-24T11:24:58.241160659+08:00"
     description: A Helm chart for Kubernetes
-    digest: a5495f1ccce49930f4b5d6c3053505302b63aac279cf7bb51931bb321a637ee0
+    digest: dfa0f3e5de1f2a821689ac5474b579829b43bbc2caad76cfe9069cc3ad400dd4
     name: helloworld
     type: application
     urls:
-    - https://yk2012985.github.io/helm-chart/helloworld-0.1.0.tgz
+    - https://github.com/yk2012985/helm-chart/helloworld-0.1.0.tgz
     version: 0.1.0
-generated: "2022-08-11T18:54:09.790549051+08:00"
+  nacos:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2022-08-24T11:24:58.243732201+08:00"
+    description: A Helm chart for Kubernetes
+    digest: 62fa70e70799118c61245a6a339f8480c77616799bef81b8c212900972b50a43
+    maintainers:
+    - name: arrowfeng
+    - name: paderlol
+    name: nacos
+    urls:
+    - https://github.com/yk2012985/helm-chart/nacos-0.1.5.tgz
+    version: 0.1.5
+generated: "2022-08-24T11:24:58.238439057+08:00"
